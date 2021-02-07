@@ -1,0 +1,39 @@
+<script>
+console.log("Hello Dummy");
+let a ="Samuel";
+let b = 'Selam'
+ a=b;
+ let c= { firstName:'Samuel',
+          lastName: "Bayeta"
+}
+a=c
+let d= {firstName: "Barak",
+         lastName: "Obama",
+       wagev: { position: "president",
+                baseSalary: 450000,
+                benefit: 100000,
+    },
+}
+a.firstName=d.firstName;
+d.lastName=a.lastName;
+let k=29;
+k+=20;
+let f= 'Samuel was idiot\nalthough he seem \rsmart\\ i am not happy in this life\t good luck covid'
+let g=f[f.length-1]
+console.log(a, d);
+console.log(g)
+function wordpro (subject, verb, adjective, adverb, object){
+    let mySentence ="";
+     mySentence+="The " + adjective + " " + adverb + " " + subject + " " + verb + " over the lazy " + object
+return mySentence
+    }
+console.log(wordpro("Fox", "jumps", "Brown", "quick", "Dog"))
+
+var myArray = [[1,2,3],[4,5,6],[7,8,9,[0,1,2,3]],[22,33,44,55]]
+//myArray[2][3][0]=9
+//myArray.push([6,6,6])
+var myArrayd= myArray.pop()
+var myArrays= myArray.shift()
+console.log(myArray)
+</script>
+<script src="bundle.js"></script>
